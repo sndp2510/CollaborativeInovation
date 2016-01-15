@@ -5,7 +5,7 @@ import com.qavelocity.architecture.IObjectRepository;
 public class Controller {
 
 	public static void main(String[] args) {
-		String channelType = "excel";
+	/*	String channelType = "excel";
 		
 		IObjectRepository myObject = null;
 		
@@ -19,6 +19,9 @@ public class Controller {
 		
 		
 		myObject.getObjectProperties("userNme");
+*/	
+System.out.println("hello");
+			ExcelObjectRepository excel=new ExcelObjectRepository();
+		System.out.println(excel.getObjectProperties("obj1"));
 	}
-
 }
